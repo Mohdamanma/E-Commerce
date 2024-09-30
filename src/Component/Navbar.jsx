@@ -11,7 +11,7 @@ function Navbar() {
                 <img src={logo} alt="" />
                 <p className='text-2xl text-black'>SHOPPER</p>
             </div>
-            <ul className='flex items-center gap-10 font-medium text-lg '>
+            <ul className='sm:flex hidden items-center gap-10 font-medium text-lg  '>
                 <li className='cursor-pointer' onClick={() => (setMenu('Shop'))} ><Link to='/'>Shop</Link>{menu === 'Shop' ? <hr className='border-none w-4/5 mt-2 h-1 rounded-xl bg-rose-600' /> : null}</li>
                 <li className='cursor-pointer' onClick={() => (setMenu('Men'))}><Link to='/mens'>Men</Link>{menu === 'Men' ? <hr className='border-none w-4/5 h-1 mt-2 rounded-xl bg-rose-600' /> : null}</li>
                 <li className='cursor-pointer' onClick={() => (setMenu('Women'))}><Link to='/womens'>Women</Link> {menu === 'Women' ? <hr className='border-none w-4/5 mt-2 h-1 rounded-xl bg-rose-600' /> : null}</li>

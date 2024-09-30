@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
-function Item({name,image,newPrice,oldPrice}) {
+function Item({id,name, image, newPrice, oldPrice }) {
     return (
         <div className='cursor-pointer w-72 hover:scale-105 hover:transition-all duration-700 '>
-            <img src={image} alt="" />
+            <Link to={`/product/${id}`}>  <img src={image} alt="" /></Link>
             <p>{name}</p>
             <div className='flex my-3 gap-3'>
                 {/* New Price */}

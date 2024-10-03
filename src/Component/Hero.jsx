@@ -5,8 +5,8 @@ import hero_image from './Asset/Frontend_Assets/hero_image.png'
 
 function Hero() {
     return (
-        <div className='flex justify-between h-screen bg-[linear-gradient(180deg,_#fde1ff,_#e1ffea22_60%)]'>
-            <div className='flex flex-col gap-6  sm:pl-44 justify-center'>
+        <div className='flex md:justify-between justify-center h-screen bg-[linear-gradient(180deg,_#fde1ff,_#e1ffea22_60%)]'>
+            <div className='flex flex-col gap-6  lg:pl-44 md:pl-32 ml-6  justify-center'>
                 <h2 className='text-black text-3xl font-semibold'>NEW ARRIVAL ONLY </h2>
                 <div>
                     <div className='flex items-center gap-5'>
@@ -21,7 +21,7 @@ function Hero() {
                     <img src={arrow_icon} className='h-5' alt="" />
                 </div>
             </div>
-            <div className='sm:flex hidden'>
+            <div className='md:flex hidden'>
                 <img src={hero_image} className='h-screen max-w-full' alt="" />
             </div>
 

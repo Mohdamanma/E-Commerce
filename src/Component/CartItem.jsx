@@ -19,7 +19,6 @@ function CartItem() {
       <hr />
       {
         all_product.map((e) => {
-          // console.log("first", e)
           if (cartItems[e.id] > 0) {
             return <div className='grid grid-cols-[0.5fr,3fr,0.5fr,0.5fr,0.5fr,0.5fr] items-center py-3 sm:gap-10 gap-5 font-normal'>
               < img src={e.image} alt="" className='sm:h-24 h-20' />

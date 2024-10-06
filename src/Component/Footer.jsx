@@ -10,7 +10,7 @@ function Footer() {
         <div className='flex flex-col sm:gap-12 gap-6 items-center justify-center '>
             <div className='flex items-center gap-5'>
                 <img src={logo} alt="" />
-                <p className='text-4xl font-semibold text-slate-800'>SHOPPER</p>
+                <p className='text-4xl font-semibold text-slate-800'>SHOPPERrr</p>
             </div>
             <ul className='flex justify-between list-none  md:gap-8 gap-4 cursor-pointer sm:font-semibold'>
                 <li className=''>Company</li>
